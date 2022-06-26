@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?wyp9w7');
+  src:  url('../fonts/icomoon.eot?wyp9w7#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon.ttf?wyp9w7') format('truetype'),
+  url('../fonts/icomoon.woff?wyp9w7') format('woff'),
+  url('../fonts/icomoon.svg?wyp9w7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-facebook:hover:before{
+  color: #F0145A ;
+}
+
+
+
+body{
+  font: 400 16px/26px 'Montserrat', sans-serif;
+  color: #fff;
+}
+.services-first-screen{
+  background-image: none;
+}
+.-section-better{
+  padding: 0;
+}
+.header{
+  margin-bottom: 30px;
+}
+.list-info__item{
+  p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+.services-footer{
+  border-top: none;
+}
